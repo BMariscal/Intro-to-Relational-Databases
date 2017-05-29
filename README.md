@@ -2,49 +2,15 @@
 
 Relational Databases course (completed free coursework):
 
+### Project 1- [Forum]()
 
-### Project - [Tournament](https://github.com/BMariscal/Intro-to-Relational-Databases/blob/master/vagrant/README.md)
+Python Pogram using a DB-API library to query a database. Learned how to access a relational database from Python code.
+Used a virtual machine (VM) to run a Python web application with a database. Used Vagrant and VirtualBox to install and manage the VM. Learned about common security pitfalls of database applications, including SQL injection attack.
+
+I worked on the Forum application's backend code. It does the following: Takes input from a form and performs input sanitization (Uses Bleach to escape or strip markup and protects database from harmful input(sql injection attack) by using execute with %s in place of each variable, then passing the value via a tuple as the second parameter of execute). It then inserts sanitized data into the database and selects the output after some output sanitization. 
+
+### Project 2- [Tournament](https://github.com/BMariscal/Intro-to-Relational-Databases/blob/master/vagrant/README.md)
 
 Built a database backed application that determined the winner of a Swiss-style game tournament. 
 This project had two parts: defining the database schema (SQL table definitions), and writing the code 	that will use it.
   
-Functions in tournament.py:
-
-  registerPlayer(name)
-  
-      Adds a player to the tournament by putting an entry in the database. The database should assign
-      an ID number to the player. Different players may have the same names but will receive different
-      ID numbers.
-
-  countPlayers()
-  
-      Returns the number of currently registered players. This function should not use the Python 
-      len() function; it should have the database count the players.
-
-  deletePlayers()
-  
-      Clear out all the player records from the database.
-
-  reportMatch(winner, loser)
-  
-      Stores the outcome of a single match between two players in the database.
-
-  deleteMatches()
-  
-      Clear out all the match records from the database.
-
-  playerStandings()
-  
-      Returns a list of (id, name, wins, matches) for each player, sorted by the number
-      of wins each player has.
-
-  swissPairings()
-  
-      Given the existing set of registered players and the matches they have
-      played,generates and returns a list of pairings according to the Swiss
-      system. Each pairing is a tuple (id1, name1, id2, name2), giving the ID
-      and name of the paired players. For instance, if there are eight registered
-      players, this function should return four pairings. This function should use
-      playerStandings to find the ranking of players.
-    
-    
