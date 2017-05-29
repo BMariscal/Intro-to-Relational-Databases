@@ -8,7 +8,8 @@ Relational Databases course
 Built a database backed application that determined the winner of a Swiss-style game tournament. 
 This project had two parts: defining the database schema (SQL table definitions), and writing the code 	that will use it.
   
-Functions in tournament.py
+Functions in tournament.py:
+
     registerPlayer(name)
     Adds a player to the tournament by putting an entry in the database. The database should assign an ID number to the           player. Different players may have the same names but will receive different ID numbers.
 
