@@ -1,7 +1,7 @@
 
 ## Tournament Project:
 
-This is a Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament. More information about the project[here](https://docs.google.com/document/d/16IgOm4XprTaKxAa8w02y028oBECOoB1EI1ReddADEeY/pub?embedded=true).
+This is a Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament. More information about the project [here](https://docs.google.com/document/d/16IgOm4XprTaKxAa8w02y028oBECOoB1EI1ReddADEeY/pub?embedded=true).
 
 ## Files
 * tournament.py
