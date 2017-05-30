@@ -13,4 +13,6 @@ I worked on the Forum application's backend code. It does the following: Takes i
 
 Built a database backed application that determined the winner of a Swiss-style game tournament. 
 This project had two parts: defining the database schema (SQL table definitions), and writing the code 	that will use it.
+Wrote a Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament. Learned how to create and use databases through the use of database schemas and how to manipulate the data inside the database. 
+
   
